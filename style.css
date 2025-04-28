@@ -1,0 +1,196 @@
+/* Tema escuro */
+body.dark-theme {
+    background-color: #121212;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Tema claro */
+  body.light-theme {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .tema-button {
+    background-color: #1f1f1f;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  body.light-theme .tema-button {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #333;
+  }
+  
+  .card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  body.light-theme .card {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  .pet-resgate {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .pet-resgate .icon {
+    width: 50px;
+  }
+  
+  .pet-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pet-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pet-details {
+    text-align: center;
+  }
+  
+  .nome-label {
+    color: gray;
+    margin-bottom: 5px;
+  }
+  
+  .nome {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bone-icon {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .descricao {
+    color: #ccc;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  body.light-theme .descricao {
+    color: #666;
+  }
+  
+  .home-icon {
+    width: 16px;
+    margin-right: 5px;
+  }
+  
+  .recompensa {
+    color: #ff5e5e;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .contato {
+    background-color: #292929;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  body.light-theme .contato {
+    background-color: #eeeeee;
+  }
+  
+  .links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .whatsapp-link {
+    display: block;
+    background-color: #25D366;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .localizacao-link {
+    display: block;
+    background-color: #00c853;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+
+
+  .footer {
+    background-color: #1f1f1f;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  
+  body.light-theme .footer {
+    background-color: #ffffff;
+    color: #666;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  .footer-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .footer-text p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  .footer-text p:first-child {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  

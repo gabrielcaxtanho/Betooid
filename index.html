@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pet Localizado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <div class="container">
+    <div class="header">
+      <h1>PET LOCALIZADO</h1>
+      <button class="tema-button" onclick="alternarTema()">TEMAS</button>
+    </div>
+
+    <div class="card">
+      <div class="pet-resgate">
+        <img src="pug.png" alt="Ícone Pet" class="icon">
+        <h2>Pet Resgate</h2>
+      </div>
+
+      <div class="pet-info">
+        <img src="beto.png" alt="Beto" class="pet-photo">
+        <div class="pet-details">
+          <p class="nome-label">NOME</p>
+          <h3 class="nome"><img src="iconebeto.png" class="bone-icon" alt="ícone osso"> BETO</h3>
+          <p class="descricao"><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" class="home-icon" alt="ícone casa"> Me ajude a retornar para minha casa!</p>
+          <p class="recompensa">OFERECEMOS RECOMPENSAS!</p>
+        </div>
+      </div>
+
+      <div class="contato">
+        <h4><img src="iconewhats.png" class="bone-icon" alt="ícone osso"> Contato</h4>
+        <p>61 99568 – 8106</p>
+        <p>61 99807 – 0639</p>
+      </div>
+
+      <div class="links">
+        <p>CLIQUE NO LINK ABAIXO E FALE COM O DONO:</p>
+        <a href="https://wa.me/55619998076028" class="whatsapp-link" target="_blank"><img src="iconewhats.png" class="bone-icon" alt="ícone whats"> WHATSAPP LINK</a>
+
+        <p>CLIQUE ABAIXO E VEJA A ROTA DE ENTREGA DO PET E RESGATE DA RECOMPENSA!</p>
+        <a href="https://www.google.com.br/maps/@-15.8887875,-48.0552707,84m/data=!3m1!1e3?entry=ttu" target="_blank" class="localizacao-link"><img src="mapa.png" class="bone-icon" alt="ícone local"> LOCALIZAÇÃO LINK</a>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <img src="tatto.png" alt="Tatto Logo" class="footer-logo">
+    <div class="footer-text">
+      <p>© CHAVES</p>
+      <p>® 2024 PetresgateTrial. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito à disponibilidade.</p>
+      <p>PetresgateTrial é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço PetresgateTrial é comercializado por GB Sistemas de Informática S.A.</p>
+    </div>
+  </footer>
+  
+  <script>
+    function alternarTema() {
+      const body = document.body;
+      body.classList.toggle('light-theme');
+      body.classList.toggle('dark-theme');
+    }
+  </script>
+</body>
+</html>
